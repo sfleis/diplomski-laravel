@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="post-container single-post">
         <h1 class="text-3xl py-4">Edit your post</h1>
         <form action="{{ route('post.update', $post) }}" method="POST" class="note">
@@ -10,4 +10,4 @@
                 <button class="post-submit-button">Submit</button>
             </div>
         </form>
-    </div></x-layout>
+    </div></x-app-layout>

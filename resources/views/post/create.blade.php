@@ -1,6 +1,5 @@
-<x-layout>
+<x-app-layout>
     <div class="post-container single-post">
-        <h1>Create new post</h1>
         <form action="{{ route('post.store') }}" method="POST" class="post">
             @csrf
             <textarea name="post" rows="10" class="post-body" placeholder="Enter your post here"></textarea>
@@ -9,4 +8,4 @@
                 <button class="post-submit-button">Submit</button>
             </div>
         </form>
-    </div></x-layout>
+    </div></x-app-layout>
